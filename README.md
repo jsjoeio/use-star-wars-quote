@@ -2,7 +2,7 @@
 
 > a custom React hook that provides a random Star Wars quote
 
-[![NPM](https://img.shields.io/npm/v/@jsjoeio/use-star-wars-quote.svg)](https://www.npmjs.com/package/@jsjoeio/use-star-wars-quote) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/@jsjoeio/react-use-sw-quote.svg)](https://www.npmjs.com/package/@jsjoeio/react-use-sw-quote) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
