@@ -13,16 +13,25 @@ npm install --save @jsjoeio/use-star-wars-quote
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React from 'react'
+import { useStarWarsQuote } from '@jsjoeio/use-star-wars-quote'
 
-import { useMyHook } from '@jsjoeio/use-star-wars-quote'
+const App = () => {
+  const { quote, loading } = useStarWarsQuote()
 
-const Example = () => {
-  const example = useMyHook()
-  return (
-    <div>{example}</div>
-  )
+  if (loading) return <p>Loading...</p>
+
+  if (quote) {
+    return (
+      <div>
+        {quote}
+      </div>
+    )
+  }
+
+  return null
 }
+export default App
 ```
 
 ## License
